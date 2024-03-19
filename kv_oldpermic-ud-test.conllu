@@ -13,3 +13,12 @@
 10	𐍮𐍐𐍥𐍣𐍚𐍩𐍡	васюк	NOUN	_	_	7	appos	_	Lytkin=вас′укӧс
 11	𐍐̈𐍜𐍝𐍙<lbr/>	аминь	INTJ	_	_	6	advmod	_	Lytkin=амин′
 12	𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣	кылдасев	NOUN	_	_	6	dep	_	Lytkin=кылдас′эв
+
+# sent_id = 4-lytkin
+# text = лоиныс быдӧн ӧдгӧт с′ӧлӧмӧн ӧт инын. 
+1	лоиныс	лоиныс	VERB	_	_	_	_	_	_
+2	быдӧн	быдӧн	PRON	_	_	1	nsubj	_	_
+3	ӧдгӧт	ӧдгӧт	ADV	_	_	4	advmod	_	_
+4	с′ӧлӧмӧн	сьӧлӧмӧн	NOUN	_	_	1	obl	_	_
+5	ӧт	ӧт	NUM	_	_	6	nummod	_	_
+6	инын	инын	NOUN	_	_	1	obl	_	_
