@@ -2,14 +2,14 @@
 # text = 𐍜𐍗𐍔 𐍙𐍡𐍡 𐍚𐍡𐍔 ѣ𐍝𐍛𐍝𐍩 𐍟𐍙 𐍜𐍯𐍛𐍯𐍥𐍢𐍯 𐍜𐍔𐍝𐍩<lbr/> 𐍚𐍠𐍔𐍚𐍐 𐍜𐍩𐍠𐍢𐍩𐍡 𐍮𐍐𐍥𐍣𐍚𐍩𐍡 𐍐̈𐍜𐍝𐍙<lbr/> 𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣
 # text_lytkin = мэзӧсэ исус кристосэ йэнлӧн пии, мылышты мэнӧ крэка мортӧс вас′укӧс. амин′, кылдас′эв.
 1	𐍜𐍗𐍔	Мезӧс	PROPN	_	_	6	_	_	Lytkin=мэзӧсэ
-2	𐍙𐍡𐍡	Исус	PROPN	_	_	1	conj	_	Lytkin=исус
+2	𐍙𐍡𐍡	Исус	PROPN	_	_	1	appos	_	Lytkin=исус
 3	𐍚𐍡𐍔	Кристос	PROPN	_	_	2	flat:name	_	Lytkin=кристосэ
 4	ѣ𐍝𐍛𐍝𐍩	ен	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	Lytkin=йэнлӧн
-5	𐍟𐍙𐍙	пи	NOUN	N	Case=Nom|Number=Sing	1	conj	_	Lytkin=пии
+5	𐍟𐍙𐍙	пи	NOUN	N	Case=Nom|Number=Sing	1	appos	_	Lytkin=пии
 6	𐍜𐍯𐍛𐍯𐍥𐍢𐍯	мылыштны	VERB	_	_	_	_	_	Lytkin=мылышты
-7	𐍜𐍔𐍝𐍩<lbr/>	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	obj	_	Lytkin=мэнӧ
+7	𐍜𐍔𐍝𐍩<lbr/>	ме	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	Lytkin=мэнӧ
 8	𐍚𐍠𐍔𐍚𐍐	грека	ADJ	_	_	9	amod	_	Lytkin=крэка
-9	𐍜𐍩𐍠𐍢𐍩𐍡	морт	NOUN	_	_	7	conj	_	Lytkin=мортӧс
-10	𐍮𐍐𐍥𐍣𐍚𐍩𐍡	васюк	NOUN	_	_	7	conj	_	Lytkin=вас′укӧс
-11	𐍐̈𐍜𐍝𐍙<lbr/>	аминь	_	_	_	_	_	_	Lytkin=амин′
-12	𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣	кылдасев	_	_	_	_	_	_	Lytkin=кылдас′эв
+9	𐍜𐍩𐍠𐍢𐍩𐍡	морт	NOUN	_	_	7	appos	_	Lytkin=мортӧс
+10	𐍮𐍐𐍥𐍣𐍚𐍩𐍡	васюк	NOUN	_	_	7	appos	_	Lytkin=вас′укӧс
+11	𐍐̈𐍜𐍝𐍙<lbr/>	аминь	INTJ	_	_	6	advmod	_	Lytkin=амин′
+12	𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣	кылдасев	NOUN	_	_	6	dep	_	Lytkin=кылдас′эв
