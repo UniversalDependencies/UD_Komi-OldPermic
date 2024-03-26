@@ -1,46 +1,46 @@
 # sent_id = 2-lytkin
-# text = сэс′ вêлмӧсс′ис йэн аврамлу мамбри тупу дорын, пукыс′лу сылу ӧʒ′ӧс вôʒ′ын ч′ôмлӧн сылӧн луншӧрӧ. 
-1	сэс′	сэсь	_	AdvType=Tim	_	_	_	_	_
-2	вêлмӧсс′ис	вêлмӧссис	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_	_
-3	йэн	ен	PROPN	_	Case=Nom|Number=Sing	2	_	_	_
-4	аврамлу	Аврам	PROPN	_	Animacy=Hum|Case=Dat|Number=Sing	2	_	_	_
-5	мамбри	мамбри	_	Case=Nom|Number=Sing	_	6	_	_	_
-6	тупу	тупу	NOUN	_	Case=Nom|Number=Sing	2	_	_	_
-7	дорын	дорын	ADP	_	Case=Ine|Number=Sing	6	_	_	_
-8	пукыс′лу	пукысьлу	_	Case=Dat|Number=Sing	_	_	_	_	_
-9	сылу	сылу	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	_	_	_	_
-10	ӧʒ′ӧс	ӧдзӧс	NOUN	_	Case=Nom|Number=Sing	_	_	_	_
-11	вôʒ′ын	вôдзын	ADP	_	Case=Ine|Number=Sing	_	_	_	_
-12	ч′ôмлӧн	чôм	NOUN	_	Case=Gen|Number=Sing	_	_	_	_
-13	сылӧн	сылӧн	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	_	_	_	_
-14	луншӧрӧ	луншӧр	_	_	_	_	_	_	_
+# text = сэс′ вêлмӧсс′ис йэн аврамлу мамбри тупу дорын, пукыс′лу сылу ӧʒ′ӧс вôʒ′ын ч′ôмлӧн сылӧн луншӧрӧ.
+1	сэс′	сэсь	ADV	AdvType=Tim	_	2	advmod	_	_
+2	вêлмӧсс′ис	вêлмӧссис	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	0	root	_	_
+3	йэн	ен	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+4	аврамлу	Аврам	PROPN	_	Animacy=Hum|Case=Dat|Number=Sing	2	obl	_	_
+5	мамбри	мамбри	NOUN	Case=Nom|Number=Sing	_	6	nmod	_	_
+6	тупу	тупу	NOUN	_	Case=Nom|Number=Sing	8	obl:lmod	_	_
+7	дорын	дорын	ADP	_	Case=Ine|Number=Sing	6	case	_	_
+8	пукыс′лу	пукысьлу	VERB	Case=Dat|Number=Sing	_	4	appos	_	_
+9	сылу	сылу	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+10	ӧʒ′ӧс	ӧдзӧс	NOUN	_	Case=Nom|Number=Sing	14	nmod	_	_
+11	вôʒ′ын	вôдзын	ADP	_	Case=Ine|Number=Sing	10	case	_	_
+12	ч′ôмлӧн	чôм	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+13	сылӧн	сылӧн	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod	_	_
+14	луншӧрӧ	луншӧр	NOUN	_	_	4	appos	_	_
 
 # sent_id = 2-lytkin
-# text = виʒ′ис авраам ас с′инйасӧн и адʒ′ис ас с′инмӧн: вôʒ′ʒ′а вэрӧс сулало мадыд сылыс′; адʒ′ымыс′ пышйис вôʒ′ʒ′а нылу ас ч′ôмлӧн ӧйыс дорыс′ и йурбыртис муӧʒ′. 
+# text = виʒ′ис авраам ас с′инйасӧн и адʒ′ис ас с′инмӧн: вôʒ′ʒ′а вэрӧс сулало мадыд сылыс′; адʒ′ымыс′ пышйис вôʒ′ʒ′а нылу ас ч′ôмлӧн ӧйыс дорыс′ и йурбыртис муӧʒ′.
 1	виʒ′ис	видзны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_
 2	авраам	Авраам	PROPN	_	Animacy=Hum|Case=Nom|Number=Sing	1	nsubj	_	_
-3	ас	ас	_	PronType=Prs|Reflex=Yes	_	4	nmod	_	_
+3	ас	ас	DET	PronType=Prs|Reflex=Yes	_	4	nmod	_	_
 4	с′инйасӧн	син	NOUN	_	Case=Ins|Number=Plur	1	obl	_	_
-5	и	и	_	_	_	_	_	_	_
-6	адʒ′ис	аддзис	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_	_
-7	ас	ас	_	PronType=Prs|Reflex=Yes	_	8	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	адʒ′ис	аддзис	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	1	conj	_	_
+7	ас	ас	DET	PronType=Prs|Reflex=Yes	_	8	nmod	_	_
 8	с′инмӧн	син	NOUN	_	Case=Ins|Number=Sing	6	obl	_	_
-9	вôʒ′ʒ′а	воддза	_	_	_	_	_	_	_
-10	вэрӧс	верӧс	NOUN	_	Case=Nom|Number=Sing	_	nsubj	_	_
+9	вôʒ′ʒ′а	воддза	ADV	_	_	6	advmod	_	_
+10	вэрӧс	верӧс	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	сулало	сулавны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	_	_	_	_
-12	мадыд	мадыд	_	_	_	_	_	_	_
-13	сылыс′	сылысь	_	_	_	_	_	_	_
-14	адʒ′ымыс′	аддзымысь	_	_	_	_	_	_	_
-15	пышйис	пышйис	_	_	_	_	_	_	_
-16	вôʒ′ʒ′а	вôддза	_	_	_	_	_	_	_
-17	нылу	найӧ	_	_	_	_	_	_	_
-18	ас	ас	_	_	_	_	_	_	_
-19	ч′ôмлӧн	чом	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	_	_	_	_
-20	ӧйыс	ӧй	_	_	_	_	_	_	_
-21	дорыс′	дорысь	ADP	_	_	_	_	_	_
-22	и	и	_	_	_	_	_	_	_
-23	йурбыртис	юрбыртны	VERB	_	_	_	_	_	_
-24	муӧʒ′	му	NOUN	_	_	_	_	_	_
+12	мадыд	мадыд	ADJ	_	_	_	_	_	_
+13	сылыс′	сылысь	PRON	_	_	_	_	_	_
+14	адʒ′ымыс′	аддзымысь	VERB	_	_	15	advcl	_	_
+15	пышйис	пышйис	VERB	_	_	_	_	_	_
+16	вôʒ′ʒ′а	вôддза	ADV	_	_	15	advmod	_	_
+17	нылу	найӧ	PRON	_	_	15	obl	_	_
+18	ас	ас	DET	_	_	19	det	_	_
+19	ч′ôмлӧн	чом	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	nmod	_	_
+20	ӧйыс	ӧй	NOUN	_	_	15	obl:lmod	_	_
+21	дорыс′	дорысь	ADP	_	_	20	case	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	йурбыртис	юрбыртны	VERB	_	_	15	cc	_	_
+24	муӧʒ′	му	NOUN	_	_	23	obl:lmod	_	_
 25	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = 2-lytkin
