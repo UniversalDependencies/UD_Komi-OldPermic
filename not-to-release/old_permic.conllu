@@ -24,32 +24,32 @@
 3	ас	ас	DET	PronType=Prs|Reflex=Yes	_	4	nmod	_	_
 4	с′инйасӧн	син	NOUN	_	Case=Ins|Number=Plur	1	obl	_	_
 5	и	и	CCONJ	_	_	6	cc	_	_
-6	адʒ′ис	аддзис	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	1	conj	_	_
+6	адʒ′ис	аддзыны	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	1	conj	_	_
 7	ас	ас	DET	PronType=Prs|Reflex=Yes	_	8	nmod	_	_
 8	с′инмӧн	син	NOUN	_	Case=Ins|Number=Sing	6	obl	_	_
-9	вôʒ′ʒ′а	воддза	ADV	_	_	6	advmod	_	_
+9	вôʒ′ʒ′а	водзӧ	ADV	_	_	6	advmod	_	_
 10	вэрӧс	верӧс	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 11	сулало	сулавны	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	_	_	_	_
 12	мадыд	мадыд	ADJ	_	_	_	_	_	_
-13	сылыс′	сылысь	PRON	_	_	_	_	_	_
-14	адʒ′ымыс′	аддзымысь	VERB	_	_	15	advcl	_	_
-15	пышйис	пышйис	VERB	_	_	_	_	_	_
-16	вôʒ′ʒ′а	вôддза	ADV	_	_	15	advmod	_	_
-17	нылу	найӧ	PRON	_	_	15	obl	_	_
-18	ас	ас	DET	_	_	19	det	_	_
-19	ч′ôмлӧн	чом	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	nmod	_	_
-20	ӧйыс	ӧй	NOUN	_	_	15	obl:lmod	_	_
-21	дорыс′	дорысь	ADP	_	_	20	case	_	_
+13	сылыс′	сійӧ	PRON	Pron	Case=Abl|Number=Sing|Person=3|PronType=Prs	_	_	_	_
+14	адʒ′ымыс′	аддзыны	VERB	V	Derivation=Mysj	15	advcl	_	_
+15	пышйис	пышйыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_
+16	вôʒ′ʒ′а	водзӧ	ADV	_	_	15	advmod	_	_
+17	нылу	сійӧ	PRON	Pron	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+18	ас	ас	DET	_	Case=Nom|PronType=Prs|Reflex=Yes	19	det	_	_
+19	ч′ôмлӧн	чом	NOUN	N	Case=Gen|Number=Sing	20	nmod	_	_
+20	ӧйыс	ӧй	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	obl:lmod	_	_
+21	дорыс′	дорысь	ADP	_	AdpType=Post|Case=Ela	20	case	_	_
 22	и	и	CCONJ	_	_	23	cc	_	_
 23	йурбыртис	юрбыртны	VERB	_	_	15	cc	_	_
-24	муӧʒ′	му	NOUN	_	_	23	obl:lmod	_	_
+24	муӧʒ′	му	NOUN	_	Case=Ter|Number=Sing	23	obl:lmod	_	_
 25	.	.	PUNCT	_	_	_	_	_	_
 
 # sent_id = 2-lytkin
 # text = и шиис: мэ (мэзӧсӧ) йэнмӧ бара-ӧ адʒ′им ко мэдалсӧ тэ вôʒ′ад, ас вэрид вылти ин мун.
-# text_kpv = и шиис: ме (мезӧсӧ) енмӧ бара-ӧ аддзим ко медалсӧ тэ водзад, ас верыд вывті эн мун.
+# text_kpv = и шуис: ме (мезӧсӧ) енмӧ бара-ӧ аддзим ко медалсӧ тэ водзад, ас верыд вывті эн мун.
 1	и	и	_	_	_	2	cc	_	_
-2	шиис	шуис	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_
+2	шиис	шуны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	_	_	_
 3	:	:	PUNCT	_	_	_	_	_	_
 4	мэ	ме	PRON	Pron	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_	_
 5	(	(	_	_	_	_	_	_	_
