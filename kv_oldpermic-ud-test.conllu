@@ -89,7 +89,7 @@
 11	ко	кӧ	SCONJ	_	_	10	mark	_	_
 12	мэдалсӧ	медал	NOUN	N	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	_
 13	тэ	тэ	PRON	Pron	Case=Nom|Number=Sing|Person=2|PronType=Prs	10	obl:lmod	_	_
-14	вôʒ′ад	водзын	ADP	_	_	13	case	_	SpaceAfter=No
+14	вôʒ′ад	водзын	ADP	_	AdpType=Post|Case=Ine|Number[psor]=Sing|Person[psor]=2	13	case	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	ас	ас	DET	_	_	17	det	_	_
 17	вэрид	вер	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	20	obl	_	_
@@ -120,13 +120,13 @@
 17	сэс′	сэсся	ADV	_	_	18	advmod	_	_
 18	мунадныд	мунны	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres	16	conj	_	_
 19	ту	ту	NOUN	_	Case=Nom|Number=Sing	18	obl:lmod	_	_
-20	туйӧ	туйӧ	ADP	_	Case=Ill	19	case	_	SpaceAfter=No
+20	туйӧ	туйӧ	ADP	_	AdpType=Post|Case=Ill	19	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	кодудлыс′	код	PRON	_	Case=Abl|Number=Sing|PronType=Int	18	obl	_	_
-23	кêжидныд	кêжидныд	ADP	_	_	22	case	_	_
+23	кêжидныд	кêжидныд	ADP	_	AdpType=Post|Number[psor]=Plur|Person[psor]=2	22	case	_	_
 24	ас	ас	DET	_	_	25	nmod	_	_
 25	вэр	вер	NOUN	_	Case=Nom|Number=Sing	18	appos	_	_
-26	ордӧ	ордӧ	ADP	_	Case=Ill	25	case	_	SpaceAfter=No
+26	ордӧ	ордӧ	ADP	_	AdpType=Post|Case=Ill	25	case	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = 2-lytkin:005
