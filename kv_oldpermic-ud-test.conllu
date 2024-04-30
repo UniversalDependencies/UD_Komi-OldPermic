@@ -1,25 +1,45 @@
 # sent_id = 1-lytkin
-# text = 𐍜𐍗𐍔 𐍙𐍡𐍡 𐍚𐍡𐍔 ѣ𐍝𐍛𐍝𐍩 𐍟𐍙 𐍜𐍯𐍛𐍯𐍥𐍢𐍯 𐍜𐍔𐍝𐍩<lbr/> 𐍚𐍠𐍔𐍚𐍐 𐍜𐍩𐍠𐍢𐍩𐍡 𐍮𐍐𐍥𐍣𐍚𐍩𐍡 𐍐̈𐍜𐍝𐍙<lbr/> 𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣
+# text = 𐍜𐍗𐍔 𐍙𐍡𐍡 𐍚𐍡𐍔 ѣ𐍝𐍛𐍝𐍩 𐍟𐍙𐍙 𐍜𐍯𐍛𐍯𐍥𐍢𐍯 𐍜𐍔𐍝𐍩<lbr/> 𐍚𐍠𐍔𐍚𐍐 𐍜𐍩𐍠𐍢𐍩𐍡 𐍮𐍐𐍥𐍣𐍚𐍩𐍡 𐍐̈𐍜𐍝𐍙<lbr/> 𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣
 # text_lytkin = мэзӧсэ исус кристосэ йэнлӧн пии, мылышты мэнӧ крэка мортӧс вас′укӧс. амин′, кылдас′эв.
-1	𐍜𐍗𐍔	Мезӧс	PROPN	_	_	6	_	_	Lytkin=мэзӧсэ
+1	𐍜𐍗𐍔	Мезӧс	PROPN	_	_	6	vocative	_	Lytkin=мэзӧсэ
 2	𐍙𐍡𐍡	Исус	PROPN	_	_	1	appos	_	Lytkin=исус
-3	𐍚𐍡𐍔	Кристос	PROPN	_	_	2	flat:name	_	Lytkin=кристосэ
+3	𐍚𐍡𐍔	Кристос	PROPN	_	_	2	flat	_	Lytkin=кристосэ
 4	ѣ𐍝𐍛𐍝𐍩	ен	NOUN	N	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nmod	_	Lytkin=йэнлӧн
 5	𐍟𐍙𐍙	пи	NOUN	N	Case=Nom|Number=Sing	1	appos	_	Lytkin=пии
-6	𐍜𐍯𐍛𐍯𐍥𐍢𐍯	мылыштны	VERB	_	_	_	_	_	Lytkin=мылышты
+6	𐍜𐍯𐍛𐍯𐍥𐍢𐍯	мылыштны	VERB	_	_	0	root	_	Lytkin=мылышты
 7	𐍜𐍔𐍝𐍩<lbr/>	ме	PRON	Pron	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	Lytkin=мэнӧ
 8	𐍚𐍠𐍔𐍚𐍐	грека	ADJ	_	_	9	amod	_	Lytkin=крэка
 9	𐍜𐍩𐍠𐍢𐍩𐍡	морт	NOUN	_	_	7	appos	_	Lytkin=мортӧс
 10	𐍮𐍐𐍥𐍣𐍚𐍩𐍡	васюк	NOUN	_	_	7	appos	_	Lytkin=вас′укӧс
-11	𐍐̈𐍜𐍝𐍙<lbr/>	аминь	INTJ	_	_	6	advmod	_	Lytkin=амин′
+11	𐍐̈𐍜𐍝𐍙<lbr/>	аминь	INTJ	_	_	6	parataxis	_	Lytkin=амин′
 12	𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣	кылдасев	NOUN	_	_	6	dep	_	Lytkin=кылдас′эв
 
 # sent_id = 4-lytkin
-# text = лоиныс быдӧн ӧдгӧт с′ӧлӧмӧн ӧт инын. 
-1	лоиныс	лоиныс	VERB	_	_	_	_	_	_
+# text = лоиныс быдӧн ӧдгӧт с′ӧлӧмӧн ӧт инын.
+1	лоиныс	лоны	VERB	_	_	0	root	_	_
 2	быдӧн	быдӧн	PRON	_	_	1	nsubj	_	_
 3	ӧдгӧт	ӧдгӧт	ADV	_	_	4	advmod	_	_
 4	с′ӧлӧмӧн	сьӧлӧмӧн	NOUN	_	_	1	obl	_	_
 5	ӧт	ӧт	NUM	_	_	6	nummod	_	_
-6	инын	инын	NOUN	_	_	1	obl	_	_
+6	инын	инын	NOUN	_	_	1	obl	_	SpaceAfter=No
+7	.	_	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 2-lytkin:001
+# text = сэс′ вêлмӧсс′ис йэн аврамлу мамбри тупу дорын пукыс′лу сылу ӧʒ′ӧс вôʒ′ын ч′ôмлӧн сылӧн луншӧрӧ.
+# text_kpv = сэсь велмӧссис ен Аврамлы мамбри тупу дорын пукысьлы сылы ӧдзӧс водзын чомлӧн сылӧн луншӧрӧ.
+1	сэс′	сэсся	ADV	AdvType=Tim	_	2	advmod	_	_
+2	вêлмӧсс′ис	вевмӧссьыны	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past	_	0	root	_	_
+3	йэн	ен	PROPN	_	Case=Nom|Number=Sing	2	nsubj	_	_
+4	аврамлу	Аврам	PROPN	_	Animacy=Hum|Case=Dat|Number=Sing	2	obl	_	_
+5	мамбри	мамбри	NOUN	Case=Nom|Number=Sing	_	6	nmod	_	_
+6	тупу	тупу	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	дорын	дорын	ADP	_	AdpType=Post|Case=Ine	6	case	_	_
+8	пукыс′лу	пукны	VERB	Case=Dat|Derivation=NomAg|Number=Sing	_	4	appos	_	_
+9	сылу	сійӧ	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	8	nmod	_	_
+10	ӧʒ′ӧс	ӧдзӧс	NOUN	_	Case=Nom|Number=Sing	14	nmod	_	_
+11	вôʒ′ын	водзын	ADP	_	AdpType=Post|Case=Ine	10	case	_	_
+12	ч′ôмлӧн	чом	NOUN	_	Case=Gen|Number=Sing	10	nmod	_	_
+13	сылӧн	сійӧ	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	nmod	_	_
+14	луншӧрӧ	луншӧр	NOUN	_	Case=Ill|Number=Sing	4	appos	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
 
