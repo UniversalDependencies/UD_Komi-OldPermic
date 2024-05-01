@@ -15,14 +15,14 @@
 12	𐍚𐍯𐍛<lbr/>𐍓𐍯<lbr/>𐍥𐍔<lbr/>𐍣	кылдасев	NOUN	_	_	6	dep	_	Lytkin=кылдас′эв
 
 # sent_id = 4-lytkin
-# text = лоиныс быдӧн ӧдгӧт с′ӧлӧмӧн ӧт инын.
-1	лоиныс	лоны	VERB	_	_	0	root	_	_
-2	быдӧн	быдӧн	PRON	_	_	1	nsubj	_	_
-3	ӧдгӧт	ӧдгӧт	ADV	_	_	4	advmod	_	_
-4	с′ӧлӧмӧн	сьӧлӧмӧн	NOUN	_	_	1	obl	_	_
-5	ӧт	ӧт	NUM	_	_	6	nummod	_	_
-6	инын	инын	NOUN	_	_	1	obl:lmod	_	SpaceAfter=No
-7	.	_	PUNCT	_	_	1	punct	_	_
+# text = 𐍛𐍩𐍙𐍝𐍯𐍡 𐍑𐍯𐍓𐍩𐍝 𐍩𐍓𐍒𐍩𐍢 𐍥𐍩𐍛𐍩𐍜𐍩 𐍩𐍢 𐍙𐍝𐍯𐍝
+# text_lytkin = лоиныс быдӧн ӧдгӧт с′ӧлӧмӧн ӧт инын.
+1	𐍛𐍩𐍙𐍝𐍯𐍡	лоны	VERB	_	_	0	root	_	_
+2	𐍑𐍯𐍓𐍩𐍝	быдӧн	PRON	_	_	1	nsubj	_	_
+3	𐍩𐍓𐍒𐍩𐍢	ӧдгӧт	ADV	_	_	4	advmod	_	_
+4	𐍥𐍩𐍛𐍩𐍜𐍩	сьӧлӧм	NOUN	_	_	1	obl	_	_
+5	𐍩𐍢	ӧт	NUM	_	_	6	nummod	_	_
+6	𐍙𐍝𐍯𐍝	ин	NOUN	Case=Ine	_	1	obl:lmod	_	SpaceAfter=No
 
 # sent_id = 2-lytkin:001
 # text = сэс′ вêлмӧсс′ис йэн аврамлу мамбри тупу дорын пукыс′лу сылу ӧʒ′ӧс вôʒ′ын ч′ôмлӧн сылӧн луншӧрӧ.
