@@ -1,34 +1,3 @@
-# sent_id = 2-lytkin
-# text = и бос′тис вый, ма, йӧл, кук, кôдӧс дас′тис и пугтис ны вôʒ′ын; и с′ôисныс; ач′ыс виʒ′ис ны вôʒ′ын тупу дынын.
-# text_kpv = и босьтіс вый, ма, йӧв, кук, кодӧс дасьтіс и пуктіс на водзын; и сёисныс; ачыс видзис на водзын тупу дінын.
-1	и	и	ADV	Adv	_	2	advmod	_	CGdephead=#1-&gt;2|CGdeprel=@ADVL&gt;|CGdephead=#1-&gt;2|CGdeprel=@ADVL&gt;|GTtags=
-2	босьтіс	босьтны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	CGdephead=#2-&gt;0|CGdeprel=@FMV|CGdephead=#2-&gt;0|CGdeprel=@FMV|GTtags=Ind,Prt1,Sg3
-3	вый	вый	NOUN	N	Case=Nom|Number=Sing	2	dep	_	CGdephead=#3-&gt;2|CGdeprel=@SPRED|CGdephead=#3-&gt;2|CGdeprel=@SPRED|GTtags=Sg,Nom|SpaceAfter=No
-4	,	,	PUNCT	CLB	_	3	punct	_	CGdephead=#4-&gt;3|CGdeprel=@X|CGdephead=#4-&gt;3|CGdeprel=@X|GTtags=CLB
-5	ма	ма	NOUN	N	Case=Nom|Number=Sing	2	dep	_	CGdephead=#5-&gt;2|CGdeprel=@SPRED|CGdephead=#5-&gt;2|CGdeprel=@SPRED|GTtags=Sg,Nom|SpaceAfter=No
-6	,	,	PUNCT	CLB	_	5	punct	_	CGdephead=#6-&gt;5|CGdeprel=@X|CGdephead=#6-&gt;5|CGdeprel=@X|GTtags=CLB
-7	йӧв	йӧв	NOUN	N	Case=Nom|Number=Sing	2	dep	_	CGdephead=#7-&gt;2|CGdeprel=@SPRED|CGdephead=#7-&gt;2|CGdeprel=@SPRED|GTtags=Sg,Nom|SpaceAfter=No
-8	,	,	PUNCT	CLB	_	7	punct	_	CGdephead=#8-&gt;7|CGdeprel=@X|CGdephead=#8-&gt;7|CGdeprel=@X|GTtags=CLB
-9	кук	кук	ADV	Adv	AdvType=Deg	_	_	_	CGdephead=#9-&gt;0|CGdeprel=@X|CGdephead=#9-&gt;0|CGdeprel=@X|GTtags=Deg|SpaceAfter=No
-10	,	,	PUNCT	CLB	_	9	punct	_	CGdephead=#10-&gt;9|CGdeprel=@X|CGdephead=#10-&gt;9|CGdeprel=@X|GTtags=CLB
-11	кодӧс	код	ADJ	A	Case=Acc|Number=Sing	_	_	_	CGdephead=#11-&gt;0|CGdeprel=@X|CGdephead=#11-&gt;0|CGdeprel=@X|GTtags=Sg,Acc
-12	дасьтіс	дасьтыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	CGdephead=#12-&gt;2|CGdeprel=@FMV|CGdephead=#12-&gt;2|CGdeprel=@FMV|GTtags=Ind,Prt1,Sg3
-13	и	и	CCONJ	CC	_	12	dep	_	CGdephead=#13-&gt;12|CGdeprel=@CVP|CGdephead=#13-&gt;12|CGdeprel=@CVP|GTtags=
-14	пуктіс	пуктыны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	CGdephead=#14-&gt;2|CGdeprel=@FMV|CGdephead=#14-&gt;2|CGdeprel=@FMV|GTtags=Ind,Prt1,Sg3
-15	на	сійӧ	PRON	Pron	Cmpl|Number=Plur|Person=3|PronType=Prs	_	_	_	CGdephead=#15-&gt;0|CGdeprel=@X|CGdephead=#15-&gt;0|CGdeprel=@X|GTtags=Pers,Pl3,Cmpl
-16	водзын	водзын	ADP	Po	AdpType=Post|Case=Ine|Number=Sing	14	case	_	CGdephead=#16-&gt;14|CGdeprel=@&lt;ADVL|CGdephead=#16-&gt;14|CGdeprel=@&lt;ADVL|GTtags=Po,Sg,Ine|SpaceAfter=No
-17	;	;	PUNCT	CLB	_	2	punct	_	CGdephead=#17-&gt;2|CGdeprel=@X|CGdephead=#17-&gt;2|CGdeprel=@X|GTtags=CLB
-18	и	и	ADV	Adv	_	_	_	_	CGdephead=#18-&gt;0|CGdeprel=@X|CGdephead=#18-&gt;0|CGdeprel=@X|GTtags=
-19	сёисныс	сёисныс	_	_	_	_	_	_	CGdephead=#19-&gt;0|CGdeprel=@X|CGdephead=#19-&gt;0|CGdeprel=@X|GTtags=?|SpaceAfter=No
-20	;	;	PUNCT	CLB	_	2	punct	_	CGdephead=#20-&gt;2|CGdeprel=@X|CGdephead=#20-&gt;2|CGdeprel=@X|GTtags=CLB
-21	ачыс	ас	PRON	Pron	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes|Person=3	_	_	_	CGdephead=#21-&gt;0|CGdeprel=@X|CGdephead=#21-&gt;0|CGdeprel=@X|GTtags=Refl,Sg3,Nom
-22	видзис	видзны	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	CGdephead=#22-&gt;2|CGdeprel=@FMV|CGdephead=#22-&gt;2|CGdeprel=@FMV|GTtags=Ind,Prt1,Sg3
-23	на	сійӧ	PRON	Pron	Cmpl|Number=Plur|Person=3|PronType=Prs	_	_	_	CGdephead=#23-&gt;0|CGdeprel=@X|CGdephead=#23-&gt;0|CGdeprel=@X|GTtags=Pers,Pl3,Cmpl
-24	водзын	водзын	ADP	Po	AdpType=Post|Case=Ine|Number=Sing	22	case	_	CGdephead=#24-&gt;22|CGdeprel=@&lt;ADVL|CGdephead=#24-&gt;22|CGdeprel=@&lt;ADVL|GTtags=Po,Sg,Ine
-25	тупу	тупу	NOUN	N	Case=Nom|Number=Sing	_	_	_	CGdephead=#25-&gt;0|CGdeprel=@X|CGdephead=#25-&gt;0|CGdeprel=@X|GTtags=Sg,Nom
-26	дінын	дін	NOUN	N	Case=Ine|NounType=Relat|Number=Sing	22	obl	_	CGdephead=#26-&gt;22|CGdeprel=@&lt;ADVL|CGdephead=#26-&gt;22|CGdeprel=@&lt;ADVL|GTtags=Relat,Sg,Ine|SpaceAfter=No
-27	.	.	PUNCT	CLB	_	2	punct	_	CGdephead=#27-&gt;2|CGdeprel=@X|CGdephead=#27-&gt;2|CGdeprel=@X|GTtags=CLB
-
 # sent_id = 3-lytkin
 # text = Сарра авраам йэ а = йэн ай йэ пи = йэн пи йэ пôлтӧс = йэн пôлтӧс
 # text_kpv = Сарра Авраам е а = ен ай е пи = ен пи е полтӧс = ен полтӧс
